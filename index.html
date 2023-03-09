@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BomberMan@V2</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="grid" id="grid">
+            </div>
+            <div>Flags left: <span id="flagsLeft">10</span></div>
+            <div id="result"></div>
+        </div>
+        <div class="description">
+            <h1>Rules for the Game</h1>
+            <p>You have to use your Brain!. In order to get all the boxes not having BOMBS in it.
+                More over you are given 10 flags which you can use to mark the position which you think can have bomb inside it.
+                On each click in the cell the points inside the cell will be reflected, based on the bombs contained in neighbouring cell.
+                For side cells the selection will be a square of nearby cells(left, right, and rest cells in-front of the three), and for all other cell it will be rectangle of six cells(up, down, left, right, northwest, northeast, southwest, southeast).
+            </p>
+            <p>Play with your intelligence.</p>
+            <p style="color:purple"> Happy Winning...</p>
+        </div>
+    </div>
+    <script src="typeScript.js"></script>
+</body>
+</html>
